@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Nicole",
+    "commit": {
+      "date": "2026-08-18T14:29:27.000Z",
+      "message": "feat: multiplicar",
+      "url": "https://github.com/Nicole-Herbas/EmpiezaJava/commit/HEAD"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 29,
+      "deletions": 0,
+      "date": "2026-08-18"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
