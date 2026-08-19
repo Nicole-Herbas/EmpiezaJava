@@ -1,17 +1,36 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "92393e5ce000b6183d4e31992c5a9a9073fbba57",
     "author": "Nicole",
     "commit": {
       "date": "2026-08-18T14:29:27.000Z",
       "message": "feat: multiplicar",
-      "url": "https://github.com/Nicole-Herbas/EmpiezaJava/commit/HEAD"
+      "url": "https://github.com/Nicole-Herbas/EmpiezaJava/commit/92393e5ce000b6183d4e31992c5a9a9073fbba57"
     },
     "stats": {
       "total": 29,
       "additions": 29,
       "deletions": 0,
       "date": "2026-08-18"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nicole",
+    "commit": {
+      "date": "2026-08-19T02:03:24.000Z",
+      "message": "feat: multiplication",
+      "url": "https://github.com/Nicole-Herbas/EmpiezaJava/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 14,
+      "deletions": 2,
+      "date": "2026-08-19"
     },
     "coverage": 100,
     "test_count": 2,
