@@ -209,17 +209,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a844f2f41e69c2114ec7a2764030c4bc60b3fa1c",
     "author": "Nicole",
     "commit": {
       "date": "2026-08-25T13:38:27.000Z",
       "message": "feat: saludar con nombre visitante",
-      "url": "https://github.com/Nicole-Herbas/EmpiezaJava/commit/HEAD"
+      "url": "https://github.com/Nicole-Herbas/EmpiezaJava/commit/a844f2f41e69c2114ec7a2764030c4bc60b3fa1c"
     },
     "stats": {
       "total": 11,
       "additions": 8,
       "deletions": 3,
+      "date": "2026-08-25"
+    },
+    "coverage": 100,
+    "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nicole",
+    "commit": {
+      "date": "2026-08-25T13:46:50.000Z",
+      "message": "feat: no acepta campos vacios",
+      "url": "https://github.com/Nicole-Herbas/EmpiezaJava/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
       "date": "2026-08-25"
     },
     "coverage": 100,

@@ -98,9 +98,15 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a844f2f41e69c2114ec7a2764030c4bc60b3fa1c",
     "commitName": "feat: saludar con nombre visitante",
     "commitTimestamp": 1787665109092,
     "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: no acepta campos vacios",
+    "commitTimestamp": 1787665611737,
+    "testId": 12
   }
 ]

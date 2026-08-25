@@ -52,6 +52,10 @@ saludarButton.addEventListener("click", (event) => {
   const saludo = saludarPorHora(new Date().getHours(), idiomaSelect.value);
   const generaSaludo = saludarPorGenero(generoInput.value, Number.parseInt(edadInput.value), idiomaSelect.value);
 
+  if(edadInput.value === "") {
+    saludarDiv.innerHTML = "<p>Por favor, ingresa una edad válida.</p>";
+    return;
+  }
 
   saludarDiv.innerHTML = "<p>" + generaSaludo + ", " + saludo + " " + nombre2 + "</p>";
 });
