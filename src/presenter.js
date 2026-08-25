@@ -1,6 +1,7 @@
 import sumar from "./sumador";
 import multiplicar from "./multiplicador";
 import saludarPorHora from "./saludador";
+import saludarPorGenero from "./genero";
 
 const first = document.querySelector("#primer-numero");
 const second = document.querySelector("#segundo-numero");
@@ -17,6 +18,7 @@ const saludarButton = document.querySelector("#saludar-button");
 const saludarDiv = document.querySelector("#saludar-div");
 
 const nombreInput = document.querySelector("#nombre");
+const generoInput = document.querySelector("#genero");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -41,6 +43,7 @@ saludarButton.addEventListener("click", (event) => {
 
   const nombre = nombreInput.value;
   const saludo = saludarPorHora(new Date().getHours());
+  const genero = saludarPorGenero(generoInput.value);
 
-  saludarDiv.innerHTML = "<p>" + "Hola, " + saludo + " " + nombre + "</p>";
+  saludarDiv.innerHTML = "<p>" + "Hola, " + genero + " " + saludo + " " + nombre + "</p>";
 });
