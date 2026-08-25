@@ -15,6 +15,8 @@ const saludarForm = document.querySelector("#saludar-form");
 const saludarButton = document.querySelector("#saludar-button");
 const saludarDiv = document.querySelector("#saludar-div");
 
+const nombreInput = document.querySelector("#nombre");
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
@@ -35,5 +37,8 @@ multiplicarButton.addEventListener("click", (event) => {
 
 saludarButton.addEventListener("click", (event) => {
   event.preventDefault();
-  saludarDiv.innerHTML = "<p>" + "Holaaaa" + "</p>";
+
+  const nombre = nombreInput.value;
+
+  saludarDiv.innerHTML = "<p>" + "Holaaaa" + " " + nombre + "</p>";
 });
