@@ -1,5 +1,6 @@
 import sumar from "./sumador";
 import multiplicar from "./multiplicador";
+import saludarPorHora from "./saludador";
 
 const first = document.querySelector("#primer-numero");
 const second = document.querySelector("#segundo-numero");
@@ -39,6 +40,7 @@ saludarButton.addEventListener("click", (event) => {
   event.preventDefault();
 
   const nombre = nombreInput.value;
+  const saludo = saludarPorHora(new Date().getHours());
 
-  saludarDiv.innerHTML = "<p>" + "Holaaaa" + " " + nombre + "</p>";
+  saludarDiv.innerHTML = "<p>" + "Hola, " + saludo + " " + nombre + "</p>";
 });
