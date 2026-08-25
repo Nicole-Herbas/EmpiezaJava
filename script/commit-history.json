@@ -38,18 +38,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8335c0efbef6516728da4c0d8e86213fa2d02c73",
     "author": "Nicole",
     "commit": {
       "date": "2026-08-19T02:10:03.000Z",
       "message": "feat: multiplicar",
-      "url": "https://github.com/Nicole-Herbas/EmpiezaJava/commit/HEAD"
+      "url": "https://github.com/Nicole-Herbas/EmpiezaJava/commit/8335c0efbef6516728da4c0d8e86213fa2d02c73"
     },
     "stats": {
       "total": 6,
       "additions": 2,
       "deletions": 4,
       "date": "2026-08-19"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nicole",
+    "commit": {
+      "date": "2026-08-25T00:25:17.000Z",
+      "message": "feat: boton saludar",
+      "url": "https://github.com/Nicole-Herbas/EmpiezaJava/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-08-25"
     },
     "coverage": 100,
     "test_count": 2,
