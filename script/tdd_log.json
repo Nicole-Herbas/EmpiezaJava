@@ -50,9 +50,23 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0efbd7fd364d908658822cf11502caf08b2cafb5",
     "commitName": "feat: saludar por genero",
     "commitTimestamp": 1787620320604,
     "testId": 7
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1787620911251,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: saludar por edad",
+    "commitTimestamp": 1787621046270,
+    "testId": 8
   }
 ]
