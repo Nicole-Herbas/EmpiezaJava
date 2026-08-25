@@ -21,6 +21,8 @@ const nombreInput = document.querySelector("#nombre");
 const generoInput = document.querySelector("#genero");
 const edadInput = document.querySelector("#edad");
 
+const idiomaSelect = document.querySelector("#idioma");
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
@@ -43,8 +45,8 @@ saludarButton.addEventListener("click", (event) => {
   event.preventDefault();
 
   const nombre = nombreInput.value;
-  const saludo = saludarPorHora(new Date().getHours());
-  const genero = saludarPorGenero(generoInput.value, Number.parseInt(edadInput.value));
+  const saludo = saludarPorHora(new Date().getHours(), idiomaSelect.value);
+  const generaSaludo = saludarPorGenero(generoInput.value, Number.parseInt(edadInput.value), idiomaSelect.value );
 
-  saludarDiv.innerHTML = "<p>" + "Hola " + genero + ", " + saludo + " " + nombre + "</p>";
+  saludarDiv.innerHTML = "<p>" + generaSaludo + ", " + saludo + " " + nombre + "</p>";
 });

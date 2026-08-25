@@ -1,13 +1,15 @@
-function saludarPorHora(hora) {
+function saludarPorHora(hora, idioma) {
+  const idiomaNormalizado = String(idioma).trim().toLowerCase();
+
   if (hora >= 5 && hora < 12) {
-    return "Buenos días";
+    return idiomaNormalizado === "español" ? "Buenos días" : "Good morning";
   }
 
   if (hora >= 12 && hora < 19) {
-    return "Buenas tardes";
+    return idiomaNormalizado === "español" ? "Buenas tardes" : "Good afternoon";
   }
 
-  return "Buenas noches";
+  return idiomaNormalizado === "español" ? "Buenas noches" : "Good night";
 }
 
 export default saludarPorHora;

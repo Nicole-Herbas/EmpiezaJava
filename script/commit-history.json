@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "856f0d2bdac0e373f81080ca0c80d67a5d65d4ea",
     "author": "Nicole",
     "commit": {
       "date": "2026-08-25T01:24:05.000Z",
       "message": "feat: saludar por edad",
-      "url": "https://github.com/Nicole-Herbas/EmpiezaJava/commit/HEAD"
+      "url": "https://github.com/Nicole-Herbas/EmpiezaJava/commit/856f0d2bdac0e373f81080ca0c80d67a5d65d4ea"
     },
     "stats": {
       "total": 22,
@@ -169,5 +169,24 @@
     "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nicole",
+    "commit": {
+      "date": "2026-08-25T01:33:42.000Z",
+      "message": "feat: saludar en ingles",
+      "url": "https://github.com/Nicole-Herbas/EmpiezaJava/commit/HEAD"
+    },
+    "stats": {
+      "total": 38,
+      "additions": 24,
+      "deletions": 14,
+      "date": "2026-08-25"
+    },
+    "coverage": 100,
+    "test_count": 10,
+    "failed_tests": 8,
+    "conclusion": "failure"
   }
 ]
