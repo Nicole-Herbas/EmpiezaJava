@@ -11,6 +11,10 @@ const div = document.querySelector("#resultado-div");
 const multiplicarButton = document.querySelector("#multiplicar-button");
 const multiplicarDiv = document.querySelector("#resultado-div-multiplicar");
 
+const saludarForm = document.querySelector("#saludar-form");
+const saludarButton = document.querySelector("#saludar-button");
+const saludarDiv = document.querySelector("#saludar-div");
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
@@ -27,4 +31,9 @@ multiplicarButton.addEventListener("click", (event) => {
   const secondNumber = Number.parseInt(second1.value);
 
   multiplicarDiv.innerHTML = "<p>" + multiplicar(firstNumber, secondNumber) + "</p>";
+});
+
+saludarButton.addEventListener("click", (event) => {
+  event.preventDefault();
+  saludarDiv.innerHTML = "<p>" + "Holaaaa" + "</p>";
 });
