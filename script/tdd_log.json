@@ -70,9 +70,31 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "219860c6b66caa90e99d493d2133c8cbf7489429",
     "commitName": "feat: saludar en ingles",
     "commitTimestamp": 1787621623678,
     "testId": 9
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 8,
+    "numTotalTests": 10,
+    "timestamp": 1787621890787,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1787621919407,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: saludar en español",
+    "commitTimestamp": 1787622510516,
+    "testId": 10
   }
 ]
