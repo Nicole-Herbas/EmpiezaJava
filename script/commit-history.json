@@ -190,17 +190,36 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "b9f4513fc4405bbb4a343c0ee45ee5052761ff44",
     "author": "Nicole",
     "commit": {
       "date": "2026-08-25T01:48:29.000Z",
       "message": "fix: saludar en español",
-      "url": "https://github.com/Nicole-Herbas/EmpiezaJava/commit/HEAD"
+      "url": "https://github.com/Nicole-Herbas/EmpiezaJava/commit/b9f4513fc4405bbb4a343c0ee45ee5052761ff44"
     },
     "stats": {
       "total": 25,
       "additions": 14,
       "deletions": 11,
+      "date": "2026-08-25"
+    },
+    "coverage": 100,
+    "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nicole",
+    "commit": {
+      "date": "2026-08-25T13:38:27.000Z",
+      "message": "feat: saludar con nombre visitante",
+      "url": "https://github.com/Nicole-Herbas/EmpiezaJava/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 8,
+      "deletions": 3,
       "date": "2026-08-25"
     },
     "coverage": 100,

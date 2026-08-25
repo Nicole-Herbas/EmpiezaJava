@@ -45,8 +45,13 @@ saludarButton.addEventListener("click", (event) => {
   event.preventDefault();
 
   const nombre = nombreInput.value;
+  let nombre2 = "visitante";
+  if (nombre != "") {
+    nombre2 = nombre;
+  }
   const saludo = saludarPorHora(new Date().getHours(), idiomaSelect.value);
-  const generaSaludo = saludarPorGenero(generoInput.value, Number.parseInt(edadInput.value), idiomaSelect.value );
+  const generaSaludo = saludarPorGenero(generoInput.value, Number.parseInt(edadInput.value), idiomaSelect.value);
 
-  saludarDiv.innerHTML = "<p>" + generaSaludo + ", " + saludo + " " + nombre + "</p>";
+
+  saludarDiv.innerHTML = "<p>" + generaSaludo + ", " + saludo + " " + nombre2 + "</p>";
 });

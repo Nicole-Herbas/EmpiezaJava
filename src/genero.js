@@ -22,7 +22,7 @@ function saludarPorGenero(genero, edad, idioma) {
     return esEspanol ? "Hola persona" : "Hello person";
   }
 
-  return esEspanol ? "Hola muchacho" : "Hello buddy";
+  return esEspanol ? "Hola muchache" : "Hello buddy";
 }
 
 export default saludarPorGenero;
